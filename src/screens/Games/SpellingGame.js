@@ -38,7 +38,7 @@ const MovementSystem = (entities, { touches }) => {
   return entities
 }
 
-const SpellingGame = ({ navigation }) => {
+const SpellingGame = () => {
   // State variables
   const [fontsLoaded, setFontsLoaded] = useState(false)
   const [words, setWords] = useState([])
